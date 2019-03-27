@@ -15,6 +15,10 @@ app.get("", (req, res) => {
   res.render("index.hbs");
 });
 
+app.get("/services", (req, res) => {
+  res.render("services.hbs");
+});
+
 app.listen(port, () => {
   console.log("listening on port: " + port);
 })

@@ -1,5 +1,5 @@
 .grid {
-  max-width: 1200px;
+  max-width: 100%;
   grid-gap: 5px;
   margin: auto;
   display: grid;
@@ -32,7 +32,7 @@ header {
   justify-items: center;
 }
 
-header a {
+.navLinks a {
   font-size: 1.1em;
   text-decoration: none;
   white-space: nowrap;
@@ -40,7 +40,7 @@ header a {
   padding: 30px 35px; 
 }
 
-header a:hover {
+.navLinks a:hover {
   transition:  0.6s ease;
   background-color: #00AABF; 
 }
