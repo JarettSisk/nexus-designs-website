@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="/css/base.css">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+  <title>Document</title>
+</head>
+<body>
+  <div class="grid">
+  <header>
+      <img src="/img/nexus-designs-logo2.png" id="logo">
+      <img src="img/mobile-menu-icon.png" onclick="hide()" class="dropbtn">
+      <div class="navLinks">
+        <a href="/about">About</a>
+        <a href="/services">Services</a>
+        <a href="/Our Work">Our Work</a>
+        <a href="/">Contact</a>
+      </div>
+  </header>
+  </div>
+
+  <script>
+      // for the nav menu icon
+      let navLinks = document.querySelector(".navLinks");
+      function hide() {
+        
+      
+        navLinks.classList.toggle("show");
+        
+      }
+
+      
+      
+    </script>
+  
+</body>
+</html>
