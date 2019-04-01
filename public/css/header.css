@@ -36,11 +36,12 @@ header {
 }
 
 .navLinks a {
-  font-size: 1.1em;
+  font-size: 120%;
+  line-height:200%;
   text-decoration: none;
   white-space: nowrap;
   color: #353535;
-  padding: 30px 35px; 
+  padding: 20px 35px; 
 }
 
 .navLinks a:hover {
@@ -49,10 +50,10 @@ header {
 }
 
 .dropbtn {
- width:50px;
+ width:45px;
   display: none;
   cursor: pointer;
-  padding:10px;
+  padding:10px 0;
  
 }
 
@@ -68,6 +69,11 @@ header {
     width: 100%;
     text-align: center;
     border-bottom: 1px solid #353535;
+    padding: 10px 0;
+
+  }
+  .navLinks :nth-child(1) {
+    border-top: 1px solid #353535;
 
   }
  
