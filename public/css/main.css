@@ -12,6 +12,7 @@
 .hero {
   width: 100%;
   height: auto;
+  box-shadow: 0px 0px 5px black;
 }
 
 .centeredTitle {
@@ -31,5 +32,6 @@
     display: block;
     width: 100%;
     height: auto;
+    box-shadow: 0px 0px 5px black;
   }
 }
