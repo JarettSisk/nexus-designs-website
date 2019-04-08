@@ -5,10 +5,12 @@ body {
   font-family: roboto;
   box-sizing: border-box;
   font-size: 16px;
+  color: #353535;
 }
 
 p {
   font-size: 120%;
+  margin: 20px 20px;
 }
 
 h1 {
