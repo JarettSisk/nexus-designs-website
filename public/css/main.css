@@ -195,7 +195,7 @@
   display: grid;
   
   grid-template-columns: minmax(200px, 600px);
-
+  margin: 0 20px; 
 }
 
 .contact-form > input[type="submit"] {
