@@ -180,3 +180,44 @@
     justify-self: center;
   }
 }
+
+/* start contact page css */
+
+.contact-form-div {
+  display: grid;
+  justify-items: center;
+  width: 100%;
+  margin: 20px 0;
+  
+}
+
+.contact-form {
+  display: grid;
+  
+  grid-template-columns: minmax(200px, 600px);
+
+}
+
+.contact-form > input[type="submit"] {
+  background-image: linear-gradient(to top left, #7DF1FF, #ffffff);
+  font-size: 120%;
+  border: 1px solid black;
+  font-family: roboto;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 10px 0;
+ 
+}
+
+.contact-form > * {
+  padding: 5px;
+  
+ 
+}
+
+.contact-form > label {
+  text-align: center;
+  
+ 
+}
+

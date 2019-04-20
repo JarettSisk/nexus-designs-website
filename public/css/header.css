@@ -37,11 +37,11 @@ header {
 
 .navLinks a {
   font-size: 120%;
-  line-height:200%;
+  
   text-decoration: none;
   white-space: nowrap;
   color: #353535;
-  padding: 20px 35px; 
+  padding: 25px 35px; 
 }
 
 .navLinks a:hover {
@@ -70,7 +70,7 @@ header {
     width: 100%;
     text-align: center;
     border-bottom: 1px solid #353535;
-    padding: 10px 0;
+    padding: 20px 0;
 
   }
   .navLinks :nth-child(1) {

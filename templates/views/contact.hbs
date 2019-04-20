@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="/css/base.css">
+  <link rel="stylesheet" type="text/css" href="/css/header.css">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <title>Nexus Designs</title>
+</head>
+<body>
+  <div class="grid">
+  <header>
+    {{>nav}}
+  </header>
+
+  <!-- main start -->
+  
+    <div class="centeredTitle">
+      <h1>Contact us</h1> 
+    </div>
+
+    <div class="contact-form-div" >
+      <form class="contact-form" method="POST">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email address..">
+
+        <label for="emailSubject">Subject</label>
+        <input type="text" id="emailSubject" name="emailSubject" placeholder="Your subject here..">
+
+
+        <label for="emailText">Message</label>
+        <textarea id="emailText" name="emailText" placeholder="Your message.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
+
+    
+
+    
+
+      
+      <!-- main end -->
+  </div>
+
+
+{{!-- link to JS --}}
+<script src="/js/main.js"></script>
+  
+</body>
+</html>
