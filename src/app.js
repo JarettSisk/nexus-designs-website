@@ -28,6 +28,14 @@ app.get("", (req, res) => {
   res.render("index.hbs");
 });
 
+app.get("/services", (req, res) => {
+  res.render("services.hbs");
+});
+
+app.get("/our-work", (req, res) => {
+  res.render("our-work.hbs");
+});
+
 app.use("/contact", contact);
 
 app.listen(port, () => {
