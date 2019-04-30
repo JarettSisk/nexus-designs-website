@@ -8,6 +8,10 @@ body {
   color: #353535;
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
   font-size: 120%;
   margin: 20px 20px;
