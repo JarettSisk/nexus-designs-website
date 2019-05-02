@@ -249,6 +249,51 @@
   animation-iteration-count: infinite;
 }
 
+/* start services page */
+.serviceDiv {
+  border: 1px solid #353535;
+  border-radius: 5px;
+  margin: 20px;
+  display: grid;
+  grid-template: none / auto 1fr;
+  justify-items: center;
+  align-items: start;
+}
+
+.serviceDiv > img {
+ width: 300px;
+ margin: 20px;
+}
+
+.serviceInnerDiv {
+  display: grid;
+  justify-items: start;
+  align-items: center; 
+  
+ }
+
+ .serviceInnerDiv > h1 {
+  margin: 20px;
+ }
+
+ @media only screen and (max-width: 800px) {
+  .serviceDiv {
+    
+    
+    grid-template: auto 1fr / none ;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .serviceInnerDiv {
+    display: grid;
+    grid-template: auto auto / none;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+   }
+ }
+
 /* start contact page css */
 
 .contact-form-div {
